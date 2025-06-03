@@ -54,10 +54,10 @@ Shop Easy’s marketing initiatives have not yet reversed the decline in custome
 > 2. Cart abandonment and micro-conversion rates highlight specific bottlenecks in the funnel, with some products consistently underperforming.
 > 3. Social media content type and country-specific sentiment reveal opportunities for targeted campaign optimization and product improvement.
 **
-![Overview Dashboard](Screenshot/overview.png)
+
 
 ---
-
+![Overview Dashboard](Screenshot/overview.png)
 ## Insights Deep Dive
 
 ### 1. Customer Engagement & Conversion Trends
