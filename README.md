@@ -12,7 +12,7 @@
 - **3. Social Media & Content Effectiveness**
 - **4. Customer Review & Sentiment Analysis**
 
-> - The SQL queries used to inspect and clean the data for this analysis can be found here: [SQL Cleaning Scripts](Resources/Fact_Customer_journey.sql), [customer table](Resources/customer_table.sql), [fact_Customer_review](Resources/fact_Customer_review.sql), [fact_engagement_data](Resources/fact_engagement_data.sql), [product table](Resources/product_table.sql) 
+> - The SQL queries used to inspect and clean the data for this analysis can be found here: [Fact_Customer_journey.sql](Resources/Fact_Customer_journey.sql), [customer_table](Resources/customer_table.sql), [fact_Customer_review](Resources/fact_Customer_review.sql), [fact_engagement_data](Resources/fact_engagement_data.sql), [product table](Resources/product_table.sql) 
 > - The interactive [Power BI dashboards](Marketing_Dashboard.pbix) used to report and explore sales and marketing trends are included in this repository.  
 > - The Python script for sentiment analysis is included here: [Python Sentiment Analysis](Resources/Sentiment_Analysis.py)
 > - [Dataset](Resources/Data.bak)  
@@ -21,7 +21,7 @@
 
 ## Data Structure & Initial Checks
 
-The company’s main database structure consists of the following core tables ([tables-and-datasources-info.docx])
+The company’s main database structure consists of the following core tables 
 
 - **dim_product**: Product details (ID, name, price, price category)
 - **dim_customer**: Customer demographics and geography (joined from customers and geography tables)
@@ -39,7 +39,8 @@ The company’s main database structure consists of the following core tables ([
 - Customer journeys: ~4,000
 
 **Entity Relationship Diagram:**  
-![](Screenshot/datamodel.png)
+<img src="Screenshot/data_model.png" width="800" />
+
 
 
 ## Executive Summary
@@ -53,7 +54,7 @@ Shop Easy’s marketing initiatives have not yet reversed the decline in custome
 > 2. Cart abandonment and micro-conversion rates highlight specific bottlenecks in the funnel, with some products consistently underperforming.
 > 3. Social media content type and country-specific sentiment reveal opportunities for targeted campaign optimization and product improvement.
 **
-![Overview Dashboard](./overview_dashboard.jpg)[1]
+![Overview Dashboard](Screenshot/overview.png)
 
 ---
 
@@ -66,7 +67,6 @@ Shop Easy’s marketing initiatives have not yet reversed the decline in custome
 - **Insight 3:** Funnel analysis shows a significant drop-off from clicks to likes (**only 4.6% of views result in a like**), **indicating issues with content relevance or site experience.**
 - **Insight 4:** Monthly conversion rates and engagement metrics consistently fall below industry benchmarks and averages, particularly during campaign-intensive months.
 
-![Engagement & Conversion Trends](./overview_dashboard.jpg)
 
 ---
 
@@ -77,7 +77,6 @@ Shop Easy’s marketing initiatives have not yet reversed the decline in custome
 - **Micro-conversions (36.1%) and average journey duration (2.62 min)** suggest **customers are engaging but not progressing to purchase for certain products.**
 - **Year-over-year analysis** shows some products improving in conversion, but many declining, highlighting the need for targeted interventions.
 
-![Product & Funnel Performance](./conversion_dashboard.jpg)
 
 ---
 
@@ -88,7 +87,7 @@ Shop Easy’s marketing initiatives have not yet reversed the decline in custome
 - Monthly trends show **engagement and sentiment scores declining in the second half of the year**, despite increased campaign activity.
 - **Social media campaigns** are numerous (20 tracked), but only a subset drive above-average engagement and sentiment.
 
-![Social Media Details](./social_media_dashboard.jpg)
+![Social Media Details](Screenshot/social_Media.png)
 
 ---
 
@@ -99,7 +98,7 @@ Shop Easy’s marketing initiatives have not yet reversed the decline in custome
 - **Negative review count and low average rating** are highly correlated for products **like Boxing Gloves and Hockey Stick**.
 - **Positive reviews (61.6%) and net sentiment score (45%)** indicate room for improvement, especially for underperforming products.
 
-![Customer Review Details](./customer_review_dashboard.jpg)
+![Customer Review Details](Screenshot/Customer_Review.png)
 
 ---
 
