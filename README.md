@@ -12,11 +12,10 @@
 - **3. Social Media & Content Effectiveness**
 - **4. Customer Review & Sentiment Analysis**
 
-> - The SQL queries used to inspect and clean the data for this analysis can be found here: [SQL Cleaning Scripts](./Sql.docx)
-> - Targeted SQL queries regarding business questions can be found here: [Business SQL Queries](./Sql.docx)  
-> - The interactive Power BI dashboards used to report and explore sales and marketing trends are included in this repository.  
-> - The Python script for sentiment analysis is included here: [Python Sentiment Analysis](./python-sentiment-analysis.docx)
-> - Link for Dataset - 
+> - The SQL queries used to inspect and clean the data for this analysis can be found here: [SQL Cleaning Scripts](Resources/Fact_Customer_journey.sql), [customer table](Resources/customer_table.sql), [fact_Customer_review](Resources/fact_Customer_review.sql), [fact_engagement_data](Resources/fact_engagement_data.sql), [product table](Resources/product_table.sql) 
+> - The interactive [Power BI dashboards](Marketing_Dashboard.pbix) used to report and explore sales and marketing trends are included in this repository.  
+> - The Python script for sentiment analysis is included here: [Python Sentiment Analysis](Resources/Sentiment_Analysis.py)
+> - [Dataset](Resources/Data.bak)  
 
 ---
 
@@ -40,8 +39,8 @@ The company’s main database structure consists of the following core tables ([
 - Customer journeys: ~4,000
 
 **Entity Relationship Diagram:**  
-*Dim tables link to fact tables on IDs; calendar links to all facts by date.*  
-*(Insert ERD image if available)*
+![](Screenshot/data_model.png)
+
 
 ## Executive Summary
 
