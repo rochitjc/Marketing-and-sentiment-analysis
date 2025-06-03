@@ -67,7 +67,7 @@ Shop Easy’s marketing initiatives have not yet reversed the decline in custome
 - **Insight 3:** Funnel analysis shows a significant drop-off from clicks to likes (**only 4.6% of views result in a like**), **indicating issues with content relevance or site experience.**
 - **Insight 4:** Monthly conversion rates and engagement metrics consistently fall below industry benchmarks and averages, particularly during campaign-intensive months.
 
-
+![Conversion Rate](Screenshot/Conversion_Rate.png)
 ---
 
 ### 2. Product & Funnel Performance
