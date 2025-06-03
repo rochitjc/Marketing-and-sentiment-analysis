@@ -39,7 +39,7 @@ The company’s main database structure consists of the following core tables ([
 - Customer journeys: ~4,000
 
 **Entity Relationship Diagram:**  
-![](Screenshot/data_model.png)
+![](Screenshot/datamodel.png)
 
 
 ## Executive Summary
