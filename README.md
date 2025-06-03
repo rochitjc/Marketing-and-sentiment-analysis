@@ -126,4 +126,4 @@ Based on the insights and findings above, we recommend Shop Easy’s marketing a
 
 *This project demonstrates how combining advanced sentiment analysis with rigorous marketing analytics can drive actionable business improvements for online retail.*
 
-
+[Refer to Approach](Resources/Project_Approach.docx)
